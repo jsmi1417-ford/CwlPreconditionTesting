@@ -3,6 +3,7 @@ import PackageDescription
 
 let package = Package(
 	name: "CwlPreconditionTesting",
+	platforms: [.iOS(.v9), .macOS(.v10_10), .watchOS(.v3), .tvOS(.v9)],
 	products: [
 		.library(name: "CwlPreconditionTesting", targets: ["CwlPreconditionTesting", "CwlMachBadInstructionHandler"]),
 		.library(name: "CwlPosixPreconditionTesting", targets: ["CwlPosixPreconditionTesting"])
