@@ -9,7 +9,7 @@ let package = Package(
 		.library(name: "CwlPosixPreconditionTesting", targets: ["CwlPosixPreconditionTesting"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/mattgallagher/CwlCatchException.git", from: "2.0.0")
+		.package(url: "https://github.com/jsmi1417-ford/CwlCatchException.git", from: "2.0.0")
 	],
 	targets: [
 		.target(
